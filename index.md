@@ -1,9 +1,9 @@
 ---
-title: $home
+title: $electron - home
 layout: home
 permalink: /
 ---
 
-# Welcome
+# Welcome to Electron
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+Here you will get artciles realted to design and development written by various experts of this design and development field.
