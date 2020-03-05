@@ -16,6 +16,6 @@ plugins:
 header_pages:
   - about.md
 
-style: dark
+# style: dark
 
 footer: 'follow us on <a href="https://instagram.com/iamharsh.dev">instagram</a>'
