@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-{{page.title}}
 <p>
-  {% if page.author %}
-    <a href="{{ author.url }}">Written by: {{ page.author }}</a>
-  {% endif %}
+{{page.title}}
+  {% assign author = site.authors | where: 'name', page.author | first %}{% if author %}
+Written by : <a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %}
 </p>
 <p>&nbsp;</p>
 {{ content }}
 <p>&nbsp;</p>
 Artcile date: {{page.date}}
 <p>&nbsp;</p>
-{% if page.author %}Written by: {{page.author}}{% endif %}
+{% if page.author %}Written by: {{author.display_name}}{% endif %}

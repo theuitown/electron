@@ -18,4 +18,8 @@ header_pages:
 
 # style: dark
 
+collections:
+  authors:
+    output: true
+
 footer: 'follow us on <a href="https://instagram.com/iamharsh.dev">instagram</a>'
