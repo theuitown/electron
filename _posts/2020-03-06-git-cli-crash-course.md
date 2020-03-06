@@ -4,6 +4,8 @@ title: GIT CLI CRASH COURSE
 date: 2020-03-06T18:13:16.380Z
 author: iamharsh
 ---
+![Main Image](https://i.ibb.co/Gk6Zq4R/Screenshot-20200307-002316.png)
+
 Hey folks, out there we all know about github and it is basically a git hosting site so now you must be wondering what is git? In simple words Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
 So now we must step further diving into git commands (GUI guys please stay away from this post).
