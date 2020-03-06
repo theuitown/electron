@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<h2>Follow Harsh on<h2><a href=""><i class="fab fa-instagram"></i></a>
+  <h2>Follow Harsh on<h2><a href=""><i class="fab fa-github"></i></a>
 <h1>{{ page.display_name }}</h1>
 <h2>Position: {{ page.position }}</h2>
 
@@ -16,6 +20,6 @@ layout: default
   </li>
   {% endfor %}
 </ul>
-<a href="{{page.instaurl}}"><h2>Follow {{page.display_name}} on Instagram</h2></a>
+<h2>Follow {{page.display_name}} on </h2><a href="{{page.instaurl}}"><i class="fab fa-instagram"></i></a>
 
-<a href="{{page.giturl}}"><h2>Follow {{page.display_name}}'s code on GitHub</h2></a>
+<h2>Follow {{page.display_name}}'s code on </h2><a href="{{page.giturl}}"><i class="fab fa-github"></i></a>
