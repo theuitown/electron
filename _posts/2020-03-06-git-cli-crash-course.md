@@ -18,22 +18,26 @@ Utility: This command is use to clone a git repo on to your local machine this c
 
 ## 3.git config
 Utility: To config the git on your machine (mandatory) .
-Syntax: ```
+Syntax: 
+```
 git config --global user.name "theuitown"
 git config --global user.email "electronlabsdev@gmail.com"
 ```
 
 ## 4.git add
 Utility: To save or add the changes you have made to the working directory this will not really take effect until you commit the changes.
-Syntax: ```
+Syntax: 
+```
 git add <file_name> or git add . (to add all the files to repo)
+```
 
 ## 5.git status
 Utility: To check the status of the repo like what all changes you have made and what is added to repo and what not.
 
 ## 6.git commit
 Utility: To commits / save the snapshot to the project history.
-Syntax: ```
+Syntax:
+```
 git commit -m "add_any_commit_message"
 ```
 
@@ -48,35 +52,43 @@ Utility: This will show all of the commits you have made into the repo and other
 
 ## 10.git revert
 Utility: As the name suggests this command can revert the changes to last commit made incase something went wrong.
-Syntax : ```
+Syntax : 
+```
 git revert <commit-id>
 ```
 Here enter the commit id you can get it by git logs command.
 
 ## 11.git branch
 Utility : It will list out all of the branches.
-Syntax: ```
- "git branch" or "git branch -a" to list remote branches as well.
+Syntax: 
+```
+ "git branch" or "git branch -a"
+// to list remote branches as well.
  ```
 
 ## 12.git checkout
 Utility : To switch between different branches.
 
-Syntax:```
+Syntax:
+```
  "git checkout <branch name>" or "git checkout -b <branch name> if you want to create a new branch and switch to it
 ```
 
 ## 13.git push/pull
 Utility: Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
 
-Syntax :```
+Syntax :
+```
 git pull <:remote:> <:branch:> and git push <:remote:> <:branch:>
 ```
 
 ## 14.git remote
 Utility: To check what remote/ source you have or incase you wanna add a new remote.
 
-Syntax: "git remote" to check and list. And "git remote add <:remote_url:>"
+Syntax:
+```
+ "git remote" to check and list. And "git remote add <:remote_url:>"
+```
 
 At the end i just wanna say that try it of yourself and once you have learned how to use git now you have the superpowers.
 
