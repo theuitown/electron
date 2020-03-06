@@ -20,3 +20,37 @@ So choose wisely!
 **3. Resources To Get Started?**
 
 Well (Surprisingly 🤪) Flutter’s Documentation is Far bether than lot of languages out there... Flutter team have their YouTube channel where they post Weekly Videos About random widgets!
+
+Also check out pub.dev for some awesome packages that will save tons of your time while developing an app!
+
+Not only Youtube , you will also find curated content on medium.com And Udemy.com I have Personally watched the videos from Udemy thereby I am recommending you a few!
+
+Not to Forget there is a very helpfu community on telegram to solve all your doubts!
+
+**Telegram:**
+
+https://t.me/dartlang_group
+
+**YouTube:**
+
+https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw
+
+**Udemy:**
+
+1. https://www.udemy.com/course/flutter-bootcamp-with-dart/
+
+2.https://www.udemy.com/course/flutter-dart-the-complete-flutter-app-development-course/
+
+**(P.s. Haven’t mentioned flutter docs link.. I hope that’s easy To find!)**
+
+**4. So to summarise.. Can you really build production ready apps?**\
+\
+Yes, You can! If you practice flutter well it’s a big time saver... I myself have published 2 apps on play store... One of which has 30k installs currently..! 
+
+Also flutter is easy to learn even for a newbie... I learnt flutter when I knew only Basics HTML and css!...So  keep fluttering.. whether a pro or a noob..😗 
+
+Search for { pub:OjasK } on play store to see what u can make out with flutter!
+
+Dont forget to checkout my Github and Insta Regarding Flutter Queries!
+
+Happy Coding! 😇
