@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "$ Create A Dark/Light Theme Switch with CSS/JS"
-date:   2020-03-04 15:20:32 +0530
+title: $ Create A Dark/Light Theme Switch with CSS/JS
+date: 2020-03-03T18:30:00.000Z
 categories: css javascript
-author: "Harsh Vardhan"
+author: iamharsh
 ---
 ![Demo](https://res.cloudinary.com/practicaldev/image/fetch/s--YzRaLuxk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/x33qbc84dmg1yhmnnc23.gif){:height="100%" width="100%"}
 <p>&nbsp;</p>
