@@ -3,7 +3,12 @@ layout: default
 ---
 {{page.title}}
 <p>&nbsp;</p>
-{% if page.author %}Written by: {{page.author}}{% endif %}
+<p>
+  {% assign author = site.authors | where: 'name', page.author | first %}
+  {% if author %}
+    - <a href="{{ author.url }}">{{ author.display_name }}</a>
+  {% endif %}
+</p>
 <p>&nbsp;</p>
 {{ content }}
 <p>&nbsp;</p>
