@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GIT CLI CRASH COURSE
+postimg: /assets/uploads/screenshot_20200307-002316.png
 date: 2020-03-06T18:13:16.380Z
 author: iamharsh
 ---
