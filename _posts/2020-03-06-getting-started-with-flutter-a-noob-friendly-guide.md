@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started With Flutter.. A Noob Friendly Guide
+postimg: /assets/uploads/screenshot_20200307-110749.png
 date: 2020-03-06T19:19:06.114Z
 author: Ojas
 ---
