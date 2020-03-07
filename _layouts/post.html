@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
+<style>
+img{
+  height=100% ;
+  width=100%;
+}
+</style>
 <p>
 {{page.title}}
   {% assign author = site.authors | where: 'name', page.author | first %}{% if author %}
 Written by : <a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %}
 </p>
+{% if page.postimg %}
+<img src='{{page.postimg}}'>
+{% endif %}
 <p>&nbsp;</p>
 {{ content }}
 <p>&nbsp;</p>

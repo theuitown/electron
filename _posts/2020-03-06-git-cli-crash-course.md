@@ -4,8 +4,6 @@ title: GIT CLI CRASH COURSE
 date: 2020-03-06T18:13:16.380Z
 author: iamharsh
 ---
-![Main Image](https://i.ibb.co/Gk6Zq4R/Screenshot-20200307-002316.png)
-
 Hey folks, out there we all know about github and it is basically a git hosting site so now you must be wondering what is git? In simple words Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
 So now we must step further diving into git commands (GUI guys please stay away from this post).
@@ -18,7 +16,7 @@ Utility: This command is use to clone a git repo on to your local machine this c
 
 ## 3.git config
 Utility: To config the git on your machine (mandatory) .
-Syntax: 
+Syntax:
 ```
 git config --global user.name "theuitown"
 git config --global user.email "electronlabsdev@gmail.com"
@@ -26,7 +24,7 @@ git config --global user.email "electronlabsdev@gmail.com"
 
 ## 4.git add
 Utility: To save or add the changes you have made to the working directory this will not really take effect until you commit the changes.
-Syntax: 
+Syntax:
 ```
 git add <file_name> or git add . (to add all the files to repo)
 ```
@@ -44,7 +42,7 @@ git commit -m "add_any_commit_message"
 ## 7. git stash
 Utility: Temporarily save uncommited file into stash. So we can work on something else.
 
-## 8. git diff 
+## 8. git diff
 Utility: To see the details of changes you made to files.
 
 ## 9.git logs
@@ -52,7 +50,7 @@ Utility: This will show all of the commits you have made into the repo and other
 
 ## 10.git revert
 Utility: As the name suggests this command can revert the changes to last commit made incase something went wrong.
-Syntax : 
+Syntax :
 ```
 git revert <commit-id>
 ```
@@ -60,7 +58,7 @@ Here enter the commit id you can get it by git logs command.
 
 ## 11.git branch
 Utility : It will list out all of the branches.
-Syntax: 
+Syntax:
 ```
  "git branch" or "git branch -a"
 // to list remote branches as well.
