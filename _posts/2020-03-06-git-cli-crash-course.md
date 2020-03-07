@@ -10,85 +10,87 @@ Hey folks, out there we all know about github and it is basically a git hosting 
 So now we must step further diving into git commands (GUI guys please stay away from this post).
 
 ## 1.git init
-Utility: To initialise a git repo on your local machine in your current project directory.
+**Utility**: To initialise a git repo on your local machine in your current project directory.
 
 ## 2.git clone <url>
-Utility: This command is use to clone a git repo on to your local machine this could be your own repo hosted on GitHub or any other repo by some other cool developer just like me. Here you just have to replace <url> with the url of that repo you want to clone or download.
+**Utility**: This command is use to clone a git repo on to your local machine this could be your own repo hosted on GitHub or any other repo by some other cool developer just like me. Here you just have to replace <url> with the url of that repo you want to clone or download.
 
 ## 3.git config
-Utility: To config the git on your machine (mandatory) .
-Syntax:
-```
+**Utility**: To config the git on your machine (mandatory) .
+**Syntax**:
+
+{% highlight bash %}
 git config --global user.name "theuitown"
 git config --global user.email "electronlabsdev@gmail.com"
-```
+{% endhighlight %}
 
 ## 4.git add
-Utility: To save or add the changes you have made to the working directory this will not really take effect until you commit the changes.
-Syntax:
-```
-git add <file_name> or git add . (to add all the files to repo)
-```
+**Utility**: To save or add the changes you have made to the working directory this will not really take effect until you commit the changes.
+**Syntax:**
+{% highlight bash %}
+"git add <file_name>" or "git add ." (to add all the files to repo)
+{% endhighlight %}
 
 ## 5.git status
-Utility: To check the status of the repo like what all changes you have made and what is added to repo and what not.
+**Utility**: To check the status of the repo like what all changes you have made and what is added to repo and what not.
 
 ## 6.git commit
-Utility: To commits / save the snapshot to the project history.
-Syntax:
-```
+**Utility**: To commits / save the snapshot to the project history.
+**Syntax**:
+{% highlight bash %}
 git commit -m "add_any_commit_message"
-```
+{% endhighlight %}
 
 ## 7. git stash
-Utility: Temporarily save uncommited file into stash. So we can work on something else.
+**Utility**: Temporarily save uncommited file into stash. So we can work on something else.
 
 ## 8. git diff
-Utility: To see the details of changes you made to files.
+**Utility**: To see the details of changes you made to files.
 
 ## 9.git logs
-Utility: This will show all of the commits you have made into the repo and other details about that commit and this basically shows you the history of your repo.
+**Utility**: This will show all of the commits you have made into the repo and other details about that commit and this basically shows you the history of your repo.
 
 ## 10.git revert
-Utility: As the name suggests this command can revert the changes to last commit made incase something went wrong.
-Syntax :
-```
-git revert <commit-id>
-```
+**Utility**: As the name suggests this command can revert the changes to last commit made incase something went wrong.
+**Syntax** :
+{% highlight bash %}
+"git revert <commit-id>"
+{% endhighlight %}
 Here enter the commit id you can get it by git logs command.
 
 ## 11.git branch
-Utility : It will list out all of the branches.
-Syntax:
-```
+**Utility** : It will list out all of the branches.
+**Syntax**:
+{% highlight bash %}
  "git branch" or "git branch -a"
-// to list remote branches as well.
- ```
+
+// to list remote branches as well.
+{% endhighlight %}
 
 ## 12.git checkout
-Utility : To switch between different branches.
+**Utility** : To switch between different branches.
 
-Syntax:
-```
- "git checkout <branch name>" or "git checkout -b <branch name> if you want to create a new branch and switch to it
-```
+**Syntax**:
+{% highlight bash %}
+ "git checkout <branch name>" or "git checkout -b <branch name>" //if you want to create a new branch and switch to it
+{% endhighlight %}
 
 ## 13.git push/pull
-Utility: Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
+**Utility**: Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
 
-Syntax :
-```
-git pull <:remote:> <:branch:> and git push <:remote:> <:branch:>
-```
+**Syntax** :
+{% highlight bash %}
+"git pull <:remote:> <:branch:>" and "git push <:remote:> <:branch:>"
+{% endhighlight %}
 
 ## 14.git remote
-Utility: To check what remote/ source you have or incase you wanna add a new remote.
+**Utility**: To check what remote/ source you have or incase you wanna add a new remote.
 
-Syntax:
-```
- "git remote" to check and list. And "git remote add <:remote_url:>"
-```
+**Syntax**:
+{% highlight bash %}
+ "git remote" // to check and list. And "git remote add <:remote_url:>"
+{% endhighlight %}
 
 At the end i just wanna say that try it of yourself and once you have learned how to use git now you have the superpowers.
 
-Peace out i will catch you in my next one.
+# *Peace out i will catch you in my next one.*

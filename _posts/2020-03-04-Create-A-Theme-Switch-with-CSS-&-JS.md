@@ -31,7 +31,7 @@ Now it might look ugly because it is only the skeleton so to make it handsome ju
     --bg-color: #fff;
 }
 
-\[data-theme="dark"] {     --font-color: #fff;
+[data-theme="dark"] {     --font-color: #fff;
     --bg-color: #161625;
 }
 
@@ -60,11 +60,9 @@ const toggleSwitch = document.querySelector('.theme-switch input\[type="checkbox
 
 if (currentTheme) {     document.documentElement.setAttribute('data-theme', currentTheme);
 
-```
 if (currentTheme === 'dark') {
     toggleSwitch.checked = true;
 }
-```
 
 }
 
