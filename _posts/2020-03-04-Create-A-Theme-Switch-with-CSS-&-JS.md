@@ -3,7 +3,7 @@ layout: post
 title: $ Create A Dark/Light Theme Switch with CSS/JS
 date: 2020-03-03T18:30:00.000Z
 categories: css javascript
-postimg: /assets/uploads/screenshot_20200307-110749.png
+postimg: /assets/uploads/is-dark-mode-better-for-you-980x551.png
 author: iamharsh
 ---
 Hey, folks out there so you must have seen dark mode options in most of the websites and if you haven't seen any of it then you can take a look at my portfolio website https://iamharsh.design/ . Now if you have already done that then you are eligible to think of implementing it in your websites without a much do let's get our hand dirty with some code. Wait I have a way to do that what you have to do is just open your code in any of your favorite text editor and follow my steps.
