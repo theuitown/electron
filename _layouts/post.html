@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1 style="font-size:1.2rem;">$ {{page.title}}<h1>
+<h1 contenteditable="true" style="font-size:1.2rem;">$ {{page.title}}<h1>
   <p>{% assign author = site.authors | where: 'name', page.author | first %}{% if author %}
 Written by : <a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %}
 </p>
@@ -27,5 +27,4 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+<noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
