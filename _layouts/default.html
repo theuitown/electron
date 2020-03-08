@@ -8,6 +8,10 @@
 
       {%- include header.html -%}
 
+      <div id="preloader">
+           <strong class="loading">Loading...</strong>
+      </div>
+
     <main>
       {{ content }}
     </main>
@@ -26,6 +30,12 @@
         });
       }
     </script>
+    <script>
+    var overlay = document.getElementById("preloader");
+window.addEventListener('load', function(){
+overlay.style.display = 'none';
+})
+</script>
     {% include analytics.html %}
   </body>
 </html>
