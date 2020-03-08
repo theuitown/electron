@@ -1,7 +1,3 @@
 items:
-  - link: /
-    name: Home
-  - link: /staff.html
-    name: Staff
-  - link: /about.html
-    name: About
+  - link: /search.html
+    name: $Search

@@ -58,7 +58,7 @@ footer { margin-bottom: 20px; }
 .menu ul { margin-top: 12px; margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;}
 .menu ul li .webname{text-align: left;}
 .menu ul .webname:hover{text-decoration: none; color: var(--background-color); background-color: var(--base-color);}
-.menu ul li:nth-child(2){float:right;}
+.menu ul li:not(:first-child){float:right;}
 .menu ul li { margin-left: 10px;display: inline-block;}
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }

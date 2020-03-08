@@ -1,0 +1,16 @@
+---
+layout: default
+title: Authors
+---
+<h1 style="font-size:2rem;">Authors</h1>
+<ul style="list-style-type: none;">
+  {% for author in site.authors %}
+    <li style="lis">
+      <h2 style="font-size:1.1rem;">
+<a href="{{ author.url }}">${{ author.display_name }}</a>
+      </h2>
+      <h3>Position: {{ author.position }}</h3>
+      <p>About: {{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: $ Create A Dark/Light Theme Switch with CSS/JS
+title: Create A Dark/Light Theme Switch with CSS/JS
 date: 2020-03-03T18:30:00.000Z
 categories: css javascript
 postimg: /assets/uploads/is-dark-mode-better-for-you-980x551.png

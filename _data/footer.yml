@@ -1,0 +1,5 @@
+items:
+  - link: /staff.html
+    name: $Authors
+  - link: /about
+    name: $About

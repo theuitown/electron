@@ -13,10 +13,11 @@ theme: jekyll-theme-console
 plugins:
   - jekyll-feed
 
-header_pages:
-  - about.md
+# header_pages:
+#   - about.md
+#   - search.md
 
-# style: dark
+# style: light
 
 collections:
   authors:

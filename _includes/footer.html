@@ -1,0 +1,11 @@
+{% assign doclist = site.data.footer.items | sort: 'name'  %}
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="menu">
+  <ul>
+    <li><a href="https://instagram.com/iamharsh.dev"><div class="webname">Visit us on instagram</div></a></li>
+    {% for item in doclist %}
+    <li><a href="{{ item.link | relative_url }}">{{ item.name | escape  }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
