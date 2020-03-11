@@ -4,6 +4,7 @@ title: GIT CLI CRASH COURSE
 postimg: /assets/uploads/screenshot_20200307-002316.png
 date: 2020-03-06T18:13:16.380Z
 author: iamharsh
+categories: crash_course
 ---
 Hey folks, out there we all know about github and it is basically a git hosting site so now you must be wondering what is git? In simple words Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
@@ -37,9 +38,7 @@ git config --global user.email "electronlabsdev@gmail.com"
 ## 6.git commit
 **Utility**: To commits / save the snapshot to the project history.
 **Syntax**:
-{% highlight bash %}
-git commit -m "add_any_commit_message"
-{% endhighlight %}
+```git commit -m "add_any_commit_message"```
 
 ## 7. git stash
 **Utility**: Temporarily save uncommited file into stash. So we can work on something else.
@@ -53,44 +52,39 @@ git commit -m "add_any_commit_message"
 ## 10.git revert
 **Utility**: As the name suggests this command can revert the changes to last commit made incase something went wrong.
 **Syntax** :
-{% highlight bash %}
+```
 "git revert <commit-id>"
-{% endhighlight %}
+```
 Here enter the commit id you can get it by git logs command.
 
 ## 11.git branch
 **Utility** : It will list out all of the branches.
-**Syntax**:
-{% highlight bash %}
- "git branch" or "git branch -a"
+**Syntax**:```"git branch" or "git branch -a"``` to list remote branches as well.
 
-// to list remote branches as well.
-{% endhighlight %}
 
 ## 12.git checkout
 **Utility** : To switch between different branches.
 
-**Syntax**:
-{% highlight bash %}
- "git checkout <branch name>" or "git checkout -b <branch name>" //if you want to create a new branch and switch to it
-{% endhighlight %}
+**Syntax**:```
+ "git checkout <branch name>" or "git checkout -b <branch name>"``` if you want to create a new branch and switch to it.
+
 
 ## 13.git push/pull
 **Utility**: Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
 
 **Syntax** :
-{% highlight bash %}
+```
 "git pull <:remote:> <:branch:>" and "git push <:remote:> <:branch:>"
-{% endhighlight %}
+```
 
 ## 14.git remote
 **Utility**: To check what remote/ source you have or incase you wanna add a new remote.
 
 **Syntax**:
-{% highlight bash %}
+```
  "git remote" // to check and list. And "git remote add <:remote_url:>"
-{% endhighlight %}
+```
 
 At the end i just wanna say that try it of yourself and once you have learned how to use git now you have the superpowers.
 
-# *Peace out i will catch you in my next one.*
+## *Peace out i will catch you in my next one.*
