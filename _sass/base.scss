@@ -141,27 +141,3 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
-
-/* preloader */
-
-#preloader{
-    background: var(--background-color);
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    position:fixed;
-    z-index: 99;
-  }
-
-  #name{
-    font-family:'Source Code Pro', monospace;
-    font-weight:500;
-    position:absolute;
-    top:50%;
-    color:var(--text-color);
-    left:50%;
-    transform:translate(-50%,-50%);
-    letter-spacing:.5rem;
-    font-size:1.4rem;
-  }

@@ -13,13 +13,15 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: /{{slug}}
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Feature Image', name: 'postimg', widget: 'image' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Category', name: 'category', widget: 'string' }
       - {
           label: 'Author',
           name: 'author',
@@ -40,7 +42,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
       - { label: 'Short Name', name: 'name', widget: 'string' }
-      - { label: 'Diplay Name', name: 'display_name', widget: 'string' }
+      - { label: 'Display Name', name: 'display_name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
       - { label: 'Instagram Url', name: 'instaurl', widget: 'string' }
       - { label: 'Github Url', name: 'giturl', widget: 'string' }

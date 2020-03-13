@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Shorten git commands with git aliases
-postimg: >-
-  https://instagram.fdel8-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/89056297_1480566758760377_2624045631420540448_n.jpg?_nc_ht=instagram.fdel8-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=lLtGm5toMxsAX8PKbOR&oh=af3a2ceb1ac04c77f2371e85bf72fd01&oe=5E9FADA1
+postimg: /assets/uploads/Shorten git commands with git aliases.png
 date: 2020-03-13T08:04:00.000Z
 author: iamharsh
 category: git
@@ -49,6 +48,7 @@ Type this to show all of the aliases you have created:
 ```
 ! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /
 ```
-<img style="width=100%,height=100%;" src="../assets/uploads/Screenshot_20200313_130116.png">
-
+<p>&nbsp;</p>
+<img src="/assets/uploads/Screenshot_20200313_130116.png" width="100%" height="100%">
+<p>&nbsp;</p>
 I hope this article helped you. Please do give your valuable feedback on this article. Bye! Bye! I will catch you in my next article.

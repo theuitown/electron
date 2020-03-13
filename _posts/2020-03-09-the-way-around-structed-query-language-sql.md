@@ -4,7 +4,7 @@ title: 'The way around Structed Query Language (SQL)'
 postimg: /assets/uploads/screenshot_20200309-214943~2.png
 date: 2020-03-09T16:33:31.429Z
 author: iamharsh
-category: rdbms  crash_course
+category: [rdbms,crash_course]
 ---
 ## What is SQL?
 

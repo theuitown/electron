@@ -7,10 +7,6 @@
     <div class="container">
 
       {%- include header.html -%}
-      <!-- preloader -->
-  <div id="preloader">
-     <div id="name" contenteditable="true">sudo electron</div>
-  </div>
 
     <main>
       {{ content }}
@@ -31,31 +27,7 @@
       }
     </script>
     {% include analytics.html %}
-
-     <!-- buffle.js -->
-     <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-
     <script>
-    //preloader
-
-const iamharsh =  baffle("#name");
-iamharsh.set({
-   characters: '░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒',
-         speed: 120
- });
-
- iamharsh.start();
- iamharsh.reveal(4000);
-
- function loadinganimation(){
-   var overlay = document.getElementById("preloader");
-   window.addEventListener('load', function(){
-   overlay.style.display = 'none';
-   })
- }
-
- loadinganimation();
-
     </script>
   </body>
 </html>
