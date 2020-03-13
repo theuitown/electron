@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Shorten git commands with git aliases'
-postimg: https://instagram.fdel8-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/89056297_1480566758760377_2624045631420540448_n.jpg?_nc_ht=instagram.fdel8-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=lLtGm5toMxsAX8PKbOR&oh=af3a2ceb1ac04c77f2371e85bf72fd01&oe=5E9FADA1
-date: 2020-03-13T16:33:31.429Z
+title: Shorten git commands with git aliases
+postimg: >-
+  https://instagram.fdel8-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/89056297_1480566758760377_2624045631420540448_n.jpg?_nc_ht=instagram.fdel8-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=lLtGm5toMxsAX8PKbOR&oh=af3a2ceb1ac04c77f2371e85bf72fd01&oe=5E9FADA1
+date: 2020-03-13T08:04:00.000Z
 author: iamharsh
 category: git
 ---
-
 # What is git ?
 In simple words Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
