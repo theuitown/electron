@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Node.js & Express
 postimg: /assets/uploads/pink-and-blue-geometric-technology-keynote.png
 date: 2020-03-06T14:54:43.793Z
-category: 'webdevelopment,javascript'
+category: 'webdevelopment , javascript'
 author: iamharsh
 ---
 Hey folks! Welcome to my artcile on getting started with Node.js and express and today we will be learning WTF is Node.js and Express.js. So,without any further do let's get started.
