@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<style>
+img{
+max-width: 100%;max-height: 100%;
+}
+</style>
 <h1 contenteditable="true" style="font-size:1.2rem;">$ {{page.title}}<h1>
   <p>{% assign author = site.authors | where: 'name', page.author | first %}{% if author %}
 Written by : <a href="{{ author.url }}">{{ author.display_name }}</a>{% endif %}
