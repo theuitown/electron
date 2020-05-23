@@ -18,8 +18,16 @@ The phone has a number of Android 10 custom ROMs and now thanks to a developer c
 The Android 11 custom ROM for Redmi Note 7 Pro is a port of Android 11 Developer Preview 4 released by Google earlier this month. So, it will be not as stable as Android 10 ROMs available for the device. Nevertheless, it is worth trying if you are into modding and stuff.
 
 <p>&nbsp;</p>
-
-\#Here’s the changelog provided by the developer for Android 11 port for Redmi Note 7 Pro.
+Screenshots
+<p>&nbsp;</p>
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/Screenshot_20200517-151709.png" style="width:100%">
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/Screenshot_20200517-151646.png" style="width:100%">
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/Screenshot_20200517-151642.png" style="width:100%">
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/IMG_20200523_204353_123.png" style="width:100%">
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/IMG_20200523_204346_345.jpg" style="width:100%">
+<img src="https://raw.githubusercontent.com/theuitown/Android_R_DP4_Port_iamharsh.dev/master/IMG_20200523_204337_792.jpg" style="width:100%">
+<p>&nbsp;</p>
+#Here’s the changelog provided by the developer for Android 11 port for Redmi Note 7 Pro.
 
 <p>&nbsp;</p>
 
