@@ -2,7 +2,7 @@
 layout: post
 title: POSP OS 10 Port for Redmi Note 7 Pro (Violet)
 postimg: /assets/uploads/IMG_20200524_173400_303.jpg
-date: 2020-05-24T17:35:04.159Z
+date: 2020-05-24T12:07:57.100Z
 category:
   - custom roms
 author: iamharsh
