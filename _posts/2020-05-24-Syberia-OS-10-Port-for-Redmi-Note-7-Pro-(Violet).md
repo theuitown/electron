@@ -34,7 +34,7 @@ Flashing instructions:
 <li>Reboot(Optional AF)</li>
 </ul>
 <p>&nbsp;</p>
-DOWNLOAD LINK:  https://bit.ly/2WJ0b7j
+DOWNLOAD LINK: <a href="https://bit.ly/2WJ0b7j">Click Here</a>
 <p>&nbsp;</p>
 Notes:
 <ul>
