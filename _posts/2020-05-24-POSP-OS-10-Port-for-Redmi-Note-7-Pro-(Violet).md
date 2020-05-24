@@ -41,7 +41,7 @@ Flashing instructions:
 <li>Reboot(Optional AF)</li>
 </ul>
 <p>&nbsp;</p>
-DOWNLOAD LINK: <a href="https://bit.ly/Pospq10">Click Here</a>
+DOWNLOAD LINK: <a href="https://bit.ly/3e6KRHI">Click Here</a>
 <p>&nbsp;</p>
 Notes:
 <ul>
