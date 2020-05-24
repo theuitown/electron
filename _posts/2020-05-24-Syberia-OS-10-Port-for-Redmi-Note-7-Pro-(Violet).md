@@ -2,7 +2,7 @@
 layout: post
 title: Syberia OS 10 Port for Redmi Note 7 Pro (Violet)
 postimg: /assets/uploads/photo_2020-05-23_20-00-14.jpg
-date: 2020-05-24T14:20:04.932Z
+date: 2020-05-24T04:26:04.159Z
 category:
   - custom roms
 author: iamharsh
