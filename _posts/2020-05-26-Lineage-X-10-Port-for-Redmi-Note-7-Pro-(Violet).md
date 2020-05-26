@@ -2,7 +2,7 @@
 layout: post
 title: LINEAGE X 10 Port for Redmi Note 7 Pro (Violet)
 postimg: /assets/uploads/20200526_090750_0000.png
-date: 2020-05-24T04:26:04.159Z
+date: 2020-05-26T03:56:39.147Z
 category:
   - custom roms
 author: iamharsh
